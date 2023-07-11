@@ -206,12 +206,21 @@ body {
     margin-top: 128px;
 }
 
+.sign-up-container {
+    text-align: center;
+}
+
 .sign-up-title {
     color: #272727;
     font-family: Lato;
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 24px;
+    text-align: center;
+}
+
+.span-color {
+    color: #E55473;
 }
 
 .sing-up-description {
@@ -277,3 +286,75 @@ body {
     width: 342px;
     height: 396px;
 }
+
+
+/* This is instagram section  */
+.deal-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 128px;
+}
+
+.deal-container {
+    background-image: url('./Flower Asset/Rectangle 9.png');
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    height: 449px;
+}
+
+.deal-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+.deal-input-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.deal-input {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 22px;
+}
+
+.subscribe-btn {
+    width: 150px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: none;
+    background: #E55473;
+    color: #FFF;
+}
+
+
