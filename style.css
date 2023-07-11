@@ -6,6 +6,7 @@
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    position: relative;
 }
 
 /* This is nevbar section  */
@@ -18,6 +19,7 @@ body {
     justify-content: space-around;
     height: 65px;
     width: 100%;
+    position: sticky;
 }
 
 .title-con {
@@ -151,5 +153,81 @@ body {
     color: #272727;
     align-items: flex-end;
     justify-content: center;
-    
+
+}
+
+
+/* This is service section  */
+.service-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 128px;
+}
+
+.service-container {
+    gap: 100px;
+    width: 1440px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.service-icon {
+    height: 88px;
+    width: 88px;
+}
+
+.service-title {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+/* This is sign up section  */
+.sign-up-section {
+    display: flex;
+    gap: 186px;
+    width: 100%;
+    height: 620px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 128px;
+}
+
+.sign-up-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.sing-up-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.sign-up-btn {
+    gap: 10px;
+    border-radius: 8px;
+    padding: 20px 43px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 32px;
+    border: none;
+    color: #FFF;
+    background: #E55473;
 }
